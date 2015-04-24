@@ -1,0 +1,43 @@
+html,body{
+  height:100%;
+  margin: 0;
+}
+.test{
+  height: 2000px;
+  width: 100%;
+  background: red no-repeat fixed top left;
+  background-size: cover;
+  font: normal 80px "微软雅黑", sans-serif ;
+  text-align: center;
+  color: white;
+  padding-top: 300px;
+}
+.box1{
+    background-image: url(img/1.jpg);  
+  }
+.box2{
+   background-image: url(img/2.jpg);
+}
+.box3{
+   background-image: url(img/3.jpg);
+}
+
+
+
+.aa{
+
+   -webkit-animation: myfirst 5s linear 1s infinite alternate; 
+}
+@-webkit-keyframes myfirst{
+  0%{
+    background-color: #782313;
+  }
+  50%{
+    background-color: #999999;
+    -webkit-transform: rotateX(40deg) translateX(200px);
+  }
+  100%{
+    background-color: #0ddddd;
+    -webkit-transform: rotateX(40deg);
+  }
+}
