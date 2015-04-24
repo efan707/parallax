@@ -3,11 +3,11 @@ html,body{
   margin: 0;
 }
 .test{
-  height: 2000px;
+  height: 1000px;
   width: 100%;
   background: red no-repeat fixed top left;
   background-size: cover;
-  font: normal 80px "微软雅黑", sans-serif ;
+  font: normal 40px "微软雅黑", sans-serif ;
   text-align: center;
   color: white;
   padding-top: 300px;
